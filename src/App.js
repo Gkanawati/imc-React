@@ -1,11 +1,11 @@
-import './app.css';
+import './App.css';
 import { useState } from 'react';
 
 export default function App() {
   const [peso, setPeso] = useState('');       /* Define variaveis para armezenar dados do input */
   const [altura, setAltura] = useState('');   /* O useState é utlizado para armazenar dados e fazer requisição */
-                                              /* useState permite que o conteudo seja dinamico  */
-  const[mensagem, setMensagem] = useState('');
+  /* useState permite que o conteudo seja dinamico  */
+  const [mensagem, setMensagem] = useState('');
 
   function calcularIMC() {
     const alt = altura / 100;;
@@ -18,17 +18,17 @@ export default function App() {
       setMensagem("Peso Ideal! Seu IMC: " + imc.toFixed(2));
     }
     else if (imc >= 24.9 && imc < 34.9) {
-      setMensagem("Você está levemente acima do seu peso! Sem IMC" + imc.toFixed(2));
+      setMensagem("Você está levemente acima do seu peso! Sem IMC: " + imc.toFixed(2));
     }
     else if (imc > 34.9) {
-      setMensagem("Cuidado Obesidade! Seu IMC " + imc.toFixed(2));
+      setMensagem("Cuidado Obesidade! Seu IMC: " + imc.toFixed(2));
     }
   }
 
   return (
     <div className="app">
       <h1>Calculadora IMC</h1>
-      <span>Vamos calcular seu IMC</span>
+      <span>Vamos calcular seu IMC?</span>
 
       <div className="area-input">
 
