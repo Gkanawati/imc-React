@@ -5,7 +5,7 @@
 ## :rocket: Sobre o projeto
 
 Calculadora de IMC desenvolvida em React js.
-Apresenta resultados dinamicos conforme o valor recebido nos inputs.
+Apresenta resultados dinâmicos conforme o valor recebido nos inputs.
 Simples e funcional.
 
 ## :link: Link do projeto:
