@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/imc-React/static/css/main.63f7df38.css",
+    "main.js": "/imc-React/static/js/main.b55a9f97.js",
+    "index.html": "/imc-React/index.html",
+    "main.63f7df38.css.map": "/imc-React/static/css/main.63f7df38.css.map",
+    "main.b55a9f97.js.map": "/imc-React/static/js/main.b55a9f97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63f7df38.css",
+    "static/js/main.b55a9f97.js"
+  ]
+}
